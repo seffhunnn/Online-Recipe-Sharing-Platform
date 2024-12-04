@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+header {
+    background-color:aqua;
+    color: #fff;
+    padding: 10px ;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #333; /
+}
+
+header h1 {
+    color: white;
+    font-size: 30px;
+    justify-content: center
+}
+
+nav {
+    display: flex;
+    gap: 20px; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555; 
+}
+
+main{
+    padding: 20px;
+}
+
+.auth-form, .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form input, .contact-form input, .contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.recipe-list {
+    display: flex;
+    gap: 20px;
+}
+
+.recipe-item {
+    cursor: pointer;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+img{
+    aspect-ratio: 3/2;
+    
+    
+}
+h3{
+    background-color: aqua;
+    text-align: center;
+    padding: 50px;
+    font-size: large;
+}
+.delete-recipe-btn{
+    background-color:red;
+}

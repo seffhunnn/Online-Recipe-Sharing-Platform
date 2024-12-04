@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Recipe</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <header>
+        <h1 class="post">Post a New Recipe</h1>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <form id="postRecipeForm">
+            <label for="dish-name">Dish Name:</label>
+            <input type="text" id="dish-name" name="dishName" required>
+
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" name="ingredients" required></textarea>
+
+            <label for="process">Process:</label>
+            <textarea id="process" name="process" required></textarea>
+
+            <label for="dish-image">Dish Image:</label>
+            <input type="file" id="dish-image" name="dishImage" required>
+
+            <button type="submit">Post Recipe</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
